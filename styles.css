@@ -250,27 +250,36 @@ body {
   color: gainsboro;
 }
 .token_business {
-  border-left: 1px solid rgb(152, 177, 182);
-  border-right: 1px solid rgb(152, 177, 182);
+  border-left: 1px solid rgb(53, 157, 189);
+  border-right: 1px solid rgb(53, 157, 189);
   padding: 0px 20px;
 }
 /* our achivements section styles end */
 
 /* Clients Testimonial section styles start */
 
-.testimonial {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.clients_testimonial_container {
+  background: rgb(192, 212, 218);
+  padding: 50px 15px;
+}
+.testimonial_title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: #000000da;
+  letter-spacing: 0.5px;
 }
 
 .slider-container {
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
-  overflow: hidden; /* Extra items will not be visible */
+  overflow: hidden;
 }
 
-.testimonial {
+.testimonial_text {
+  position: relative;
+  max-width: 350px;
+  max-height: 200px;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -279,40 +288,157 @@ body {
   margin: 10px;
 }
 
-.testimonial h3 {
+.testimonial_text::before {
+  content: " ";
+  position: absolute;
+  bottom: -5px;
+  left: 30%;
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.testimonial_text h3 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
 
-.testimonial p {
+.testimonial_text p {
   font-size: 14px;
   color: #555;
   line-height: 1.5;
+  letter-spacing: 0.32px;
 }
-
 .customer {
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
+  justify-content: start;
+  margin: 20px 0px 0px 20px;
 }
-
 .customer img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
-
 .customer-info h4 {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
-
 .customer-info span {
   font-size: 14px;
   color: #888;
 }
 
 /* Clients Testimonial section styles end */
+/* question section styles start */
+
+.complex_question_inner_content {
+  gap: 30px;
+  
+}
+.question_left_side {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.question_left_side h1 {
+  max-width: 700px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.849);
+  line-height: 64px;
+  letter-spacing: 0.5px;
+}
+.question_left_side p {
+  max-width: 481px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #555;
+}
+.question_left_side button {
+  gap: 5px;
+  margin-top: 30px;
+  padding: 8px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #ffff;
+  background: rgb(15, 110, 140);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.question_left_side button img {
+  width: 20px;
+}
+
+.question_right_side {
+}
+
+.question_right_side img {
+  max-width: 420px;
+  max-height: 375px;
+}
+/* question section styles end */
+/* footer section styles start */
+.footer_container{
+  background: rgb(15, 110, 140);
+}
+.footer_inner_content{
+  align-items: start;
+  justify-content: space-between;
+  padding: 80px 200px;
+}
+
+.footer_logo{}
+.footer_logo img{
+
+}
+
+.footer_menus{}
+.footer_culoms{
+  gap: 50px;
+  
+}
+.footer_culoms .col{
+  
+}
+.footer_culoms .col h3{
+  margin: 0px 0px 20px 0px;
+  color: rgba(244, 245, 247, 1);
+  font-size: 20px;
+}
+.footer_culoms .col ul{}
+.footer_culoms .col ul li {}
+.footer_culoms .col ul li a{
+  display: inline-block;
+  margin: 0px 0px 10px 0px;
+  color: rgba(238, 239, 244, 1);
+}
+
+/* footer bottom  */
+.footer_bottom_contaier{
+  background: rgb(5, 84, 109);
+}
+.footer_bottom_inner_content{
+  padding: 10px 100px;
+  justify-content: space-between;
+}
+.footer_bottom_inner_content div h4{
+  color: rgba(244, 245, 247, 1);
+}
+
+.footer_socil_icons{}
+.footer_socil_icons a img{
+  transition: all .5s;
+}
+.footer_socil_icons a img:hover{
+  background: rgb(6, 53, 68);
+  border-radius: 50%;
+}
+/* footer section styles end */
+
+

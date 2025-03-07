@@ -5,7 +5,7 @@ $(document).ready(function(){
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,  // ✅ Always show 2 items
+        slidesToShow: 2,  // Always show 2 items
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
@@ -14,7 +14,7 @@ $(document).ready(function(){
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1  // 📱 Mobile: Show 1 item at a time
+                    slidesToShow: 1  // Mobile: Show 1 item at a time
                 }
             }
         ]
