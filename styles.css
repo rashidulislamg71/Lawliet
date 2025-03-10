@@ -82,6 +82,7 @@ i#searchIcon {
   position: absolute;
   top: 50px;
   right: 0;
+  transform: translate(-50%, -50%);
   background: white;
   padding: 8px;
   display: flex;
@@ -150,10 +151,13 @@ i#searchIcon {
   }
 
   .header{
-    padding: 10px 20px;
+    padding: 15px 20px;
   }
   .search_container {
     margin-left: 0px;
+  }
+  .search-bar{
+    left: -215px;
   }
   .menu_link {
     position: absolute;
@@ -477,7 +481,7 @@ i#searchIcon {
   }
 
   .achivement_counter {
-    gap: 22px;
+    gap: 18px;
   }
 
   .count h1 {
@@ -685,11 +689,11 @@ i#searchIcon {
     background: rgb(15, 110, 140);
   }
   .footer_inner_content {
-    padding: 40px 20px;
+    padding: 40px 15px;
     gap: 40px;
   }
   .footer_culoms {
-    gap: 28px;
+    gap: 25px;
   }
   .footer_bottom_inner_content {
     padding: 10px 40px;
