@@ -57,3 +57,28 @@ document.addEventListener("DOMContentLoaded", function () {
         searchCloseIcon.classList.add("hidden");
     });
 });
+
+
+$('.testimonial-slider').slick({
+    slidesToShow: 2,  // Number of testimonials visible at a time
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: true,
+    arrows: true,
+    infinite: true,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        }
+    ]
+});

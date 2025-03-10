@@ -466,7 +466,7 @@ i#searchIcon {
 
 @media screen and (max-width: 768px) {
   .achivement_inner_content {
-    padding: 40px 15px;
+    padding: 40px 10px;
   }
 
   .achivement_title {
@@ -485,7 +485,7 @@ i#searchIcon {
   }
 
   .count h1 {
-    font-size: 28px;
+    font-size: 25px;
   }
   .token_business {
     padding: 0px 14px;
